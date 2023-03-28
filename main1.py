@@ -95,6 +95,4 @@ Main().run()
             cropped = img[y1:y2, x1:x2]
             cv2.imwrite("cropped_image.jpg", cropped)
             source = Image(source='cropped_image.jpg')
-
-
 """
